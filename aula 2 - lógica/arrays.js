@@ -11,6 +11,6 @@ console.log(numeros[1]);
 
 const arrayDeArrays = [[1, 2 ,3], [4, 5 ,6], [7, 8 ,9]]
 
-const [,[,,seis]] =  arrayDeArrays;
+const [lista1, lista2, lista3] =  arrayDeArrays;
 
-console.log(seis);
+console.log(lista3[2]);
